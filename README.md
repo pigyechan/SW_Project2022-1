@@ -38,12 +38,15 @@
     └── styles # styled components reusable breakpoints file, global styles & theme constant file
 ```
 
-
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+In the project directory, you can install required modules:
+
+### `npm install`
 
 In the project directory, you can run:
 
