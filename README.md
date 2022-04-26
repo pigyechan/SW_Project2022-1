@@ -1,4 +1,4 @@
-# CNAI AI Human Studio
+# 키움 구단 관리 시스템
 
 ## 폴더 구조
 
