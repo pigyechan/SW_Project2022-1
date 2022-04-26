@@ -30,8 +30,8 @@
     ├── constants # Regex 등의 Constant file
     ├── helpers # 재사용 가능한 helper function (미정)
     ├── layouts # 최상위 래퍼 컴포넌트로 사용할 레이아웃 컴포넌트
-    ├── pages # 페이지 컴포넌트
-    ├── routes # 페이지 라우트
+    ├── pages # 페이지 컴포넌트 -> 해당 폴더에 현재 만들어 놓은 예시대로 사용
+    ├── routes # 페이지 라우트 -> 위에서 작성한 페이지들을 라우팅
     ├── schema # 스키마 파일, yup으로 검증
     ├── service # 동적 http 요청하는 함수
     ├── store # actions, reducers, actionTypes 등의 redux 파일
