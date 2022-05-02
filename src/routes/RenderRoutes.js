@@ -17,6 +17,7 @@ const HeaderStyle = styled.div`
 
 const Main = lazy(() => import("../pages/main"));
 const Login = lazy(() => import("../pages/login"));
+const Training = lazy(() => import("../pages/training"));
 
 class routeItem {
   constructor(path, key, exact, component, routes) {
@@ -33,6 +34,7 @@ class routes {
     this.routes = [
       new routeItem("/main", "MAIN", true, Main, []),
       new routeItem("/login", "LOGIN", true, Login, []),
+      new routeItem("/training", "TRAINING", true, Training, []),
       // 페이지 추가 시 routeItem 추가
     ];
   }
