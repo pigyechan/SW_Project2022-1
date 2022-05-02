@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 import { Router } from "react-router-dom";
-import Routes from './routes'
+import Routes from "./routes";
 
 function App() {
   return (
     <Routes />
-
-
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
@@ -26,5 +24,5 @@ function App() {
     // </div>
   );
 }
- 
+
 export default App;
