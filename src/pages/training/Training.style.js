@@ -34,6 +34,7 @@ export const LeftContainer = styled(Container)`
 export const RightContainer = styled(Container)`
   display: flex;
   height: 80vh;
+  flex-direction: column;
   width: 60vw;
   margin-top: 1vw;
   margin-left: 1.5vw;
@@ -43,4 +44,18 @@ export const RightContainer = styled(Container)`
 export const FontSet = styled.div`
   font-size: 1.2vw;
   color: #ffffff;
+`;
+export const CalenderFontBox = styled.div`
+  display: flex;
+  align-items: center;
+  height: 10%;
+  borderbottom: "1px solid #ffffff";
+`;
+
+export const Box = styled.div`
+  position: relative;
+  width: 238px;
+  height: 178px;
+  boder: 1px solid black;
+  background: #ff00ff;
 `;
