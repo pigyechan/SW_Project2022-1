@@ -1,0 +1,43 @@
+export default [{
+    id:0,
+    name:'SSG',
+},
+{
+    id:1,
+    name:'LG',
+    pit1 : ''
+},
+{
+    id:2,
+    name:'두산'
+},
+{
+    id:3,
+    name:'롯데'
+},
+{
+    id:4,
+    name:'키움'
+},
+{
+    id:5,
+    name:'삼성'
+},
+{
+    id:6,
+    name:'KT'
+},
+{
+    id:7,
+    name:'KIA'
+},
+{
+    id:8,
+    name:'한화'
+},
+{
+    id:9,
+    name:'NC'
+},
+]
+
