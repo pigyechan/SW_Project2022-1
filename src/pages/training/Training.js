@@ -4,6 +4,24 @@ import { IoCalendarClearOutline } from "react-icons/io5";
 import { FormControl } from "react-bootstrap";
 
 export function Training(props) {
+  const dateArr = ["2022/04/08", "2022/04/07", "2022/04/06"];
+  const nameArr = ["참가선수1", "참가선수2"];
+  const trainingArr = [
+    {
+      name: "트레이닝 이름(설명)",
+      detail: "-트레이닝 자세한 설명",
+      result: "-결과",
+      general: "-기대점, 부족한 점 등",
+      box: <S.Box></S.Box>,
+    },
+    {
+      name: "트레이닝 이름(설명)",
+      detail: "-트레이닝 자세한 설명",
+      result: "-결과",
+      general: "-기대점, 부족한 점 등",
+      box: <S.Box></S.Box>,
+    },
+  ];
   return (
     <S.BackContainer>
       <S.MainContainer>
@@ -39,54 +57,24 @@ export function Training(props) {
                 }}
               />
             </S.FontSet>
-            <S.CalenderFontBox
-              style={{
-                height: "10%",
-                borderBottom: "1px solid #ffffff",
-              }}
-            >
-              <div
+            {dateArr.map((date, index) => (
+              <S.CalenderFontBox
                 style={{
-                  marginLeft: "1vw",
-                  fontSize: "1.7vw",
-                  color: "rgba(255, 255, 255, 0.7)",
+                  height: "10%",
+                  borderBottom: "1px solid #ffffff",
                 }}
               >
-                2022/04/08
-              </div>
-            </S.CalenderFontBox>
-            <S.CalenderFontBox
-              style={{
-                height: "10%",
-                borderBottom: "1px solid #ffffff",
-              }}
-            >
-              <div
-                style={{
-                  marginLeft: "1vw",
-                  fontSize: "1.7vw",
-                  color: "rgba(255, 255, 255, 0.7)",
-                }}
-              >
-                2022/04/07
-              </div>
-            </S.CalenderFontBox>
-            <S.CalenderFontBox
-              style={{
-                height: "10%",
-                borderBottom: "1px solid #ffffff",
-              }}
-            >
-              <div
-                style={{
-                  marginLeft: "1vw",
-                  fontSize: "1.7vw",
-                  color: "rgba(255, 255, 255, 0.7)",
-                }}
-              >
-                2022/04/06
-              </div>
-            </S.CalenderFontBox>
+                <div
+                  style={{
+                    marginLeft: "1vw",
+                    fontSize: "1.7vw",
+                    color: "rgba(255, 255, 255, 0.7)",
+                  }}
+                >
+                  {date}
+                </div>
+              </S.CalenderFontBox>
+            ))}
           </S.LeftContainer>
           <S.RightContainer>
             <S.FontSet
@@ -126,40 +114,25 @@ export function Training(props) {
                   borderRight: "1px solid #ffffff",
                 }}
               >
-                <S.CalenderFontBox
-                  style={{
-                    height: "15%",
-                    width: "100%",
-                    borderBottom: "1px solid #ffffff",
-                  }}
-                >
-                  <div
+                {nameArr.map((name, index) => (
+                  <S.CalenderFontBox
                     style={{
-                      marginLeft: "1vw",
-                      fontSize: "1.7vw",
-                      color: "rgba(255, 255, 255, 0.7)",
+                      height: "15%",
+                      width: "100%",
+                      borderBottom: "1px solid #ffffff",
                     }}
                   >
-                    참가선수이름
-                  </div>
-                </S.CalenderFontBox>
-                <S.CalenderFontBox
-                  style={{
-                    height: "15%",
-                    width: "100%",
-                    borderBottom: "1px solid #ffffff",
-                  }}
-                >
-                  <div
-                    style={{
-                      marginLeft: "1vw",
-                      fontSize: "1.7vw",
-                      color: "rgba(255, 255, 255, 0.7)",
-                    }}
-                  >
-                    참가선수이름
-                  </div>
-                </S.CalenderFontBox>
+                    <div
+                      style={{
+                        marginLeft: "1vw",
+                        fontSize: "1.7vw",
+                        color: "rgba(255, 255, 255, 0.7)",
+                      }}
+                    >
+                      {name}
+                    </div>
+                  </S.CalenderFontBox>
+                ))}
               </div>
               <div
                 style={{
@@ -169,110 +142,60 @@ export function Training(props) {
                   position: "relative",
                 }}
               >
-                <div
-                  style={{
-                    height: "33%",
-                    borderBottom: "1px solid #ffffff",
-                    padding: "10px",
-                    alignItems: "center",
-                  }}
-                >
-                  <S.FontSet
+                {trainingArr.map((training, index) => (
+                  <div
                     style={{
-                      height: "3%",
-                      width: "100%",
-                      paddingTop: "10px",
-                      paddingBottom: "10px",
-                      display: "flex",
-                      color: "rgba(255, 255, 255, 0.7)",
-                      fontSize: "2vh",
-                      alignItems: "center",
-                    }}
-                  >
-                    <div
-                      style={{
-                        paddingLeft: "15px",
-                      }}
-                    >
-                      트레이닝 이름(설명)
-                    </div>
-                  </S.FontSet>
-                  <S.FontSet
-                    style={{
-                      width: "100%",
-                      marginTop: "10px",
+                      height: "33%",
+                      borderBottom: "1px solid #ffffff",
                       padding: "10px",
-                      display: "flex",
-                      color: "rgba(255, 255, 255, 0.7)",
-                      fontSize: "2vh",
                       alignItems: "center",
                     }}
                   >
-                    <S.Box></S.Box>
-                    <div
+                    <S.FontSet
                       style={{
-                        paddingLeft: "4vw",
-                        marginBottom: "5vh",
+                        height: "3%",
+                        width: "100%",
+                        paddingTop: "10px",
+                        paddingBottom: "10px",
+                        display: "flex",
+                        color: "rgba(255, 255, 255, 0.7)",
+                        fontSize: "2vh",
+                        alignItems: "center",
                       }}
                     >
-                      - 트레이닝 자세한 설명
-                      <br></br>- 결과
-                      <br></br>- 기대점, 부족한 점 등
-                    </div>
-                  </S.FontSet>
-                </div>
-                <div
-                  style={{
-                    height: "33%",
-                    borderBottom: "1px solid #ffffff",
-                    padding: "10px",
-                    alignItems: "center",
-                  }}
-                >
-                  <S.FontSet
-                    style={{
-                      height: "3%",
-                      width: "100%",
-                      paddingTop: "10px",
-                      paddingBottom: "10px",
-                      display: "flex",
-                      color: "rgba(255, 255, 255, 0.7)",
-                      fontSize: "2vh",
-                      alignItems: "center",
-                    }}
-                  >
-                    <div
+                      <div
+                        style={{
+                          paddingLeft: "15px",
+                        }}
+                      >
+                        {training.name}
+                      </div>
+                    </S.FontSet>
+                    <S.FontSet
                       style={{
-                        paddingLeft: "15px",
+                        width: "100%",
+                        marginTop: "10px",
+                        padding: "10px",
+                        display: "flex",
+                        color: "rgba(255, 255, 255, 0.7)",
+                        fontSize: "2vh",
+                        alignItems: "center",
                       }}
                     >
-                      트레이닝 이름(설명)
-                    </div>
-                  </S.FontSet>
-                  <S.FontSet
-                    style={{
-                      width: "100%",
-                      padding: "10px",
-                      display: "flex",
-                      color: "rgba(255, 255, 255, 0.7)",
-                      marginTop: "10px",
-                      fontSize: "2vh",
-                      alignItems: "center",
-                    }}
-                  >
-                    <S.Box></S.Box>
-                    <div
-                      style={{
-                        paddingLeft: "4vw",
-                        marginBottom: "5vh",
-                      }}
-                    >
-                      - 트레이닝 자세한 설명
-                      <br></br>- 결과
-                      <br></br>- 기대점, 부족한 점 등
-                    </div>
-                  </S.FontSet>
-                </div>
+                      {training.box}
+                      <div
+                        style={{
+                          paddingLeft: "4vw",
+                          marginBottom: "5vh",
+                        }}
+                      >
+                        {training.detail}
+                        <br></br> {training.result}
+                        <br></br> {training.general}
+                      </div>
+                    </S.FontSet>
+                  </div>
+                ))}
               </div>
             </div>
           </S.RightContainer>

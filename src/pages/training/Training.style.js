@@ -57,5 +57,5 @@ export const Box = styled.div`
   width: 238px;
   height: 178px;
   boder: 1px solid black;
-  background: #ff00ff;
+  background: #aaaaaa;
 `;
