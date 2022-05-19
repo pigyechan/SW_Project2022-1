@@ -1,0 +1,41 @@
+.head1{
+    /* border-color: white; */
+    font-size:x-large;
+    font-weight: bolder;
+    color: white;
+}
+.body{
+    height: fit-content;
+}
+
+#Table{
+    color: #930A1A;
+    border-color:#930A1A;
+    /* margin: none; */
+}
+
+table#Table.table.table-bordered{
+    margin-bottom:0px;
+}
+
+.video{
+    width:60%;
+}
+
+.report{
+    width: 40%;
+}
+
+#summary{
+    margin: 5px;
+    background-color: white;
+    opacity: 30%;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.Card{
+    text-align: center;
+}

@@ -15,28 +15,29 @@ function Header() {
     <Head style={{ borderBottom: "1px solid #930a1a" }}>
       <MdOutlineArrowBackIos
         style={{
-          color: "#720B1E",
+          color: "#ffffff",
           marginLeft: "1vw",
           fontSize: "5vh",
         }}
       />
       <MdOutlineArrowForwardIos
         style={{
-          color: "#720B1E",
+          color: "#ffffff",
           marginLeft: "1vw",
+          marginRight: "0vw",
           fontSize: "5vh",
         }}
       />
       <SearchBar>
-        <Search type="text" placeholder="검색할 내용을 입력해 주세요." />
-        <MdSearch
+      <MdSearch
           style={{
             color: "white",
-            marginLeft: "1vw",
             fontSize: "4vh",
-            position: "absolute",
+            position: "relative",
+            marginLeft: "1vw",
           }}
         />
+        <Search type="text" placeholder="검색할 내용을 입력해 주세요." />
       </SearchBar>
 
       <BackgroundDate>

@@ -6,12 +6,14 @@ export const Head = styled.div`
   background-color: #550610;
   flex-direction: row;
   align-items: center;
-  width: 100vw;
-  height: 10.2vh;
+  justify-contents: center;
+  width: 87vw;
+  height: 10vh;
+  padding-right: 1vw;
 `;
 
 export const Search = styled.input`
-  margin-left: 4vw;
+  margin-left: 1vw;
   display: flex;
   background-color: #720b1e;
   align-items: center;
@@ -26,7 +28,8 @@ export const Search = styled.input`
 `;
 
 export const SearchBar = styled.div`
-  margin-left: 4vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background-color: #720b1e;
   align-items: center;
   border-radius: 30px;

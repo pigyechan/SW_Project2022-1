@@ -1,3 +1,12 @@
+body{
+  margin: 0;
+  overflow-y: hidden;
+  height: max-content;
+}
+.outer{
+  overflow-y: auto;
+  background-color: #550610;
+}
 
 .App {
   text-align: center;
@@ -6,6 +15,11 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.sc-iBkjds.jSHAKF{
+  background-color: #550610;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
