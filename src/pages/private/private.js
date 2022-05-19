@@ -26,24 +26,25 @@ export function Private(Props) {
   ]
 
   return (
+    <div style = {{width : '100%', height : '100%'}}>
       <TableContainer component={Paper} style = {{backgroundColor : '#550610', height : '100%', borderCollapse : 'collapse', }}>
           <TableRow style = {{minheight : '100px', height : '20%'}}>
-            <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center" colSpan={2} ><img className="Image" src="images/요키시.jpg" /><br/>{players[0].name} </TableCell>
+            <TableCell style = {{color : 'white',  border : '1px solid #930A1A'}} align="center" colSpan={2} ><img className="Image" src="images/요키시.jpg" /><br/>{players[0].name} </TableCell>
             <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center" colSpan={2} ><h3>소속팀</h3>{players[0].team}</TableCell>
-            <TableCell style = {{color : 'white', border : '1px solid #930A1A', width : '20%'}} align="center"><h3>스카우트 요약</h3>{players[0].scoutsum}</TableCell>
+            <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center"><h3>스카우트 요약</h3>{players[0].scoutsum}</TableCell>
           </TableRow>
             
           <TableRow style = {{minheight : '20px', height : '10%'}}>
-            <TableCell style = {{color : 'white', width : '20%', border : '1px solid #930A1A'}} align="center">프로필</TableCell>
-            <TableCell style = {{color : 'white', width : '20%', border : '1px solid #930A1A'}} align="center">트레이닝</TableCell>
-            <TableCell style = {{color : 'white', width : '20%', border : '1px solid #930A1A'}} align="center">스카우팅 리포트</TableCell>
+            <TableCell style = {{color : 'white', minWidth : '200px', width: '20%',  border : '1px solid #930A1A'}} align="center">프로필</TableCell>
+            <TableCell style = {{color : 'white', minWidth : '200px', width: '20%', border : '1px solid #930A1A'}} align="center">트레이닝</TableCell>
+            <TableCell style = {{color : 'white', minWidth : '200px', width: '20%', border : '1px solid #930A1A'}} align="center">스카우팅 리포트</TableCell>
             <TableCell style = {{border : '1px solid #930A1A'}} colSpan={2}></TableCell>
           </TableRow>
           
           <TableRow style = {{minheight : '20px', height : '10%'}}>
             <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center" colSpan={2} rowspan={6}>피치스타일</TableCell>
             <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center">경기 수&nbsp;&nbsp;{players[0].gamec}</TableCell>
-            <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center">탈삼진&nbsp;&nbsp;{players[0].strout}</TableCell>
+            <TableCell style = {{color : 'white', minWidth : '200px', width: '20%', border : '1px solid #930A1A'}} align="center">탈삼진&nbsp;&nbsp;{players[0].strout}</TableCell>
             <TableCell style = {{color : 'white',  border : '1px solid #930A1A'}} align="center"rowspan={6}>리그 평균과 비교</TableCell>
           </TableRow>
 
@@ -77,5 +78,6 @@ export function Private(Props) {
             <TableCell colSpan = {3} style = {{color : 'white', border : '1px solid #930A1A'}} align="center">게임 로그<br/>2022.05.11 vs삼성 4이닝</TableCell>
           </TableRow>
        </TableContainer>
+      </div>
   );
 }

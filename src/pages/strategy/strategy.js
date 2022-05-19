@@ -172,8 +172,7 @@ export function Strategy(props) {
           </Select>
         </FormControl>
       </div>
-      <div align='center' style={{ marginRight: '60%', paddingTop: '4%', width: '100%', position: 'relative', color: 'white', clear: 'left' }}>
-
+      <div style={{ paddingRight: '10%', paddingTop: '4%',  position: 'relative', color: 'white', clear: 'left' }}>
         <ThemeProvider theme={theme}>
           <Button onClick={()=>{changeresult(1)}} variant="contained" color="search">
             결과 확인
