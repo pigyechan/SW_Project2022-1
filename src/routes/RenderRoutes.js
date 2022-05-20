@@ -19,6 +19,7 @@ const Main = lazy(() => import("../pages/main"));
 const Login = lazy(() => import("../pages/login"));
 const PlayersInfo = lazy(() => import("../pages/playersInfo.js"));
 
+
 class routeItem {
   constructor(path, key, exact, component, routes) {
     this.path = path;
@@ -35,6 +36,7 @@ class routes {
       new routeItem("/main", "MAIN", true, Main, []),
       new routeItem("/login", "LOGIN", true, Login, []),
       new routeItem("/login/playersInfo", "Info", true, PlayersInfo, []),
+
       // 페이지 추가 시 routeItem 추가
     ];
   }
