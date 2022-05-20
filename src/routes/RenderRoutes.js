@@ -19,6 +19,7 @@ const Main = lazy(() => import("../pages/main"));
 const Login = lazy(() => import("../pages/login"));
 const Training = lazy(() => import("../pages/training"));
 const Scouting = lazy(() => import("../pages/scouting"));
+const PlayersInfo = lazy(() => import("../pages/playersInfo.js"));
 
 class routeItem {
   constructor(path, key, exact, component, routes) {
@@ -37,6 +38,7 @@ class routes {
       new routeItem("/login", "LOGIN", true, Login, []),
       new routeItem("/training", "TRAINING", true, Training, []),
       new routeItem("/scout", "SCOUTING", true, Scouting, []),
+      new routeItem("/login/playersInfo", "Info", true, PlayersInfo, []),
       // 페이지 추가 시 routeItem 추가
     ];
   }

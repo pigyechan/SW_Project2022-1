@@ -1,0 +1,22 @@
+#ttab{
+    height: auto;
+}
+.nav{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: larger;
+    justify-content: center;
+    padding-top: 5px;
+    align-items: center;
+    width: 87vw;
+    background-color: #550610;
+}
+.nav-link{
+    color: white;
+}
+.TabContent{
+    width: 87vw;
+}
+.nav-link {
+    padding: 0.5rem 1rem;
+}
