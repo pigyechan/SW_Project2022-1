@@ -1,31 +1,18 @@
-import * as S from "./Training.style";
+import * as S from "./Scouting.style";
 import { MdSearch } from "react-icons/md";
 import { IoCalendarClearOutline } from "react-icons/io5";
 import { FormControl } from "react-bootstrap";
 
-export function Training(props) {
-  const dateArr = ["2022/04/08", "2022/04/07", "2022/04/06"];
-  const nameArr = ["참가선수1", "참가선수2"];
-  const trainingArr = [
+export function Scouting(props) {
+  const scouterArr = ["스카우터명", "스카우터명", "스카우터명"];
+  const nameArr = ["선수이름1", "선수이름2"];
+  const scoutingArr = [
     {
-      name: "트레이닝 이름(설명)",
-      detail: "-트레이닝 자세한 설명",
-      result: "-결과",
-      general: "-기대점, 부족한 점 등",
-      box: <S.Box></S.Box>,
-    },
-    {
-      name: "트레이닝 이름(설명)",
-      detail: "-트레이닝 자세한 설명",
-      result: "-결과",
-      general: "-기대점, 부족한 점 등",
-      box: <S.Box></S.Box>,
-    },
-    {
-      name: "트레이닝 이름(설명)",
-      detail: "-트레이닝 자세한 설명",
-      result: "-결과",
-      general: "-기대점, 부족한 점 등",
+      name: "선수이름",
+      age: "나이",
+      nation: "국적",
+      style: "좌/우",
+      status: "스탯",
       box: <S.Box></S.Box>,
     },
   ];
@@ -64,7 +51,7 @@ export function Training(props) {
                 }}
               />
             </S.FontSet>
-            {dateArr.map((date, index) => (
+            {scouterArr.map((date, index) => (
               <S.CalenderFontBox
                 style={{
                   height: "10%",
@@ -101,7 +88,7 @@ export function Training(props) {
                   paddingLeft: "10px",
                 }}
               >
-                2022/04/08
+                스카우터명
               </div>
             </S.FontSet>
             <div
@@ -148,11 +135,10 @@ export function Training(props) {
                   position: "relative",
                 }}
               >
-                {trainingArr.map((training, index) => (
+                {scoutingArr.map((scouting, index) => (
                   <div
                     style={{
                       height: "33%",
-                      borderBottom: "1px solid #ffffff",
                       padding: "10px",
                       alignItems: "center",
                     }}
@@ -174,7 +160,7 @@ export function Training(props) {
                           paddingLeft: "15px",
                         }}
                       >
-                        {training.name}
+                        {scouting.name}
                       </div>
                     </S.FontSet>
                     <S.FontSet
@@ -188,20 +174,40 @@ export function Training(props) {
                         alignItems: "center",
                       }}
                     >
-                      {training.box}
+                      {scouting.box}
                       <div
                         style={{
-                          paddingLeft: "4vw",
-                          marginBottom: "5vh",
+                          paddingLeft: "2vw",
+                          marginBottom: "7vh",
                         }}
                       >
-                        {training.detail}
-                        <br></br> {training.result}
-                        <br></br> {training.general}
+                        {scouting.age} 세<br></br> {scouting.nation}
+                        <br></br> {scouting.status}
+                        <br></br> {scouting.style}
                       </div>
                     </S.FontSet>
                   </div>
                 ))}
+                <S.FontSet
+                  style={{
+                    width: "100%",
+                    paddingTop: "10px",
+                    paddingBottom: "10px",
+                    display: "flex",
+                    color: "rgba(255, 255, 255, 0.7)",
+                    fontSize: "2vh",
+                    paddingLeft: "15px",
+                    alignItems: "center",
+                  }}
+                >
+                  <div
+                    style={{
+                      paddingLeft: "15px",
+                    }}
+                  >
+                    평가
+                  </div>
+                </S.FontSet>
               </div>
             </div>
           </S.RightContainer>
