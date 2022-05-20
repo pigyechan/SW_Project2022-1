@@ -1,27 +1,27 @@
 import styled from "styled-components";
 import { Container } from "react-bootstrap";
 
-export const BackContainer = styled(Container)`
+export const BackContainer = styled.div`
   display: flex;
   background-color: #550610;
   width: 100vw;
   height: 100vh;
 `;
 
-export const MainContainer = styled(Container)`
+export const MainContainer = styled.div`
   display: flex;
   margin: 1vw;
   margin-left: 2.5vw;
   flex-direction: column;
 `;
 
-export const TrainContainer = styled(Container)`
+export const TrainContainer = styled.div`
   display: flex;
   flex-direction: row;
   position: relative;
 `;
 
-export const LeftContainer = styled(Container)`
+export const LeftContainer = styled.div`
   display: flex;
   height: 80vh;
   width: 20vw;
@@ -31,7 +31,7 @@ export const LeftContainer = styled(Container)`
   background: rgba(255, 255, 255, 0.3);
 `;
 
-export const RightContainer = styled(Container)`
+export const RightContainer = styled.div`
   display: flex;
   height: 80vh;
   flex-direction: column;
