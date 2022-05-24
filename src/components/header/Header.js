@@ -30,7 +30,7 @@ function Header() {
         }}
       />
       <SearchBar>
-      <MdSearch
+        <MdSearch
           style={{
             color: "white",
             fontSize: "4vh",

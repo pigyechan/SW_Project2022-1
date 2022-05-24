@@ -2,7 +2,7 @@ import Nav from 'react-bootstrap/Nav'
 import { useState } from 'react';
 import TrainingReport from '../../pages/TrainingReport/trainingReport';
 import ScoutingReport from '../../pages/ScoutingReport/ScoutingReport';
-import Profile from '../../pages/Profile/Profile';
+import Profile from '../../pages/Profile/index';
 import './tab.css';
 
 

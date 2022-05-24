@@ -7,7 +7,7 @@ import PlayersInfo from "./pages/playersInfo.js";
 function App() {
   return (
     <div className="outer">
-      <Routes/>
+      <Routes />
     </div>
   );
 }
