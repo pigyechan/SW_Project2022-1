@@ -1,9 +1,16 @@
-import TableCell, { tableCellClasses } from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
+import Table from 'react-bootstrap/Table'
+import styled from "styled-components";
+import './profile.css';
 
 export function Profile(Props) {
+  let Style = styled.div`
+            display: flex;
+            width: 100%;  
+            height: auto;
+            border-radius: 5px;
+            background-color: #550610;
+
+        `
   
   const players =[{
     id:0,
@@ -26,45 +33,44 @@ export function Profile(Props) {
   ]
 
   return (
-    <div style = {{height : '100%', borderRadius: '10px', paddingRight: '1%', paddingBottom: '2%'}}>
-      <TableContainer id= "tablee" component={Paper} style = {{backgroundColor : '#550610', height: 'maxContent', margin: 'none', border : '5px solid #930A1A', borderCollapse : 'collapse', }}>          
-          <TableRow style = {{width: '100%'}}>
-            <TableCell style = {{color : 'white', width: '40%', border : '1px solid #930A1A'}} align="center" colSpan={2} rowspan={6}>피치스타일</TableCell>
-            <TableCell style = {{color : 'white', width: '30%', border : '1px solid #930A1A'}} align="center">경기 수&nbsp;&nbsp;{players[0].gamec}</TableCell>
-            <TableCell style = {{color : 'white', width: '100%', border : '1px solid #930A1A'}} align="center">탈삼진&nbsp;&nbsp;{players[0].strout}</TableCell>
-            {/* <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center"rowspan={6}>리그 평균과 비교</TableCell> */}
-          </TableRow>
-
-          <TableRow style = {{color : 'white'}} >
-            <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center">승리 수&nbsp;&nbsp;{players[0].winc}</TableCell>
-            <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center">피옵스&nbsp;&nbsp;{players[0].ops}</TableCell>
-          </TableRow>
-
-          <TableRow style = {{color : 'white'}} >
-           <TableCell style = {{color : 'white', border : '1px solid #930A1A'}}align="center">평균자책점&nbsp;&nbsp;{players[0].score}</TableCell>
-            <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center">볼넷&nbsp;&nbsp;{players[0].ballf}</TableCell>
-          </TableRow>
-
-          <TableRow style = {{color : 'white'}} >
-            <TableCell style = {{color : 'white',  border : '1px solid #930A1A'}} align="center">WHIP&nbsp;&nbsp;{players[0].whip}</TableCell>
-            <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center">볼삼비&nbsp;&nbsp;{(players[0].bastr).toFixed(2)}</TableCell>
-          </TableRow>
-
-          <TableRow style = {{color : 'white'}} >
-            <TableCell style = {{color : 'white',  border : '1px solid #930A1A'}} align="center">이닝&nbsp;&nbsp;{players[0].innings}</TableCell>
-            <TableCell style = {{color : 'white',  border : '1px solid #930A1A'}} align="center">피안타율&nbsp;&nbsp;{players[0].hits}</TableCell>
-          </TableRow>
-
-          <TableRow style = {{color : 'white'}} >
-            <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center">투구수&nbsp;&nbsp;{players[0].ballc}</TableCell>
-            <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center">피홈런율&nbsp;&nbsp;{players[0].homerun}</TableCell>
-          </TableRow>
-
-          <TableRow style = {{color : 'white', height : '100%'}}>
-            <TableCell style = {{color : 'white', border : '1px solid #930A1A'}} align="center" colSpan={2}>부상상태<br/>{players[0].injury}</TableCell>
-            <TableCell colSpan = {3} style = {{color : 'white', border : '1px solid #930A1A'}} align="center">게임 로그<br/>2022.05.11 vs삼성 4이닝</TableCell>
-          </TableRow>
-       </TableContainer>
-      </div>
+    <Style>
+      <Table bordered id= "table">
+        <tbody>
+          <tr>
+            <td colSpan={3} rowspan={6}>피치스타일</td>
+            <td>경기 수&nbsp;&nbsp;{players[0].gamec}</td>
+            <td>탈삼진&nbsp;&nbsp;{players[0].strout}</td>
+            <td rowspan={6}>리그 평균과 비교</td>
+          </tr>
+          <tr>
+            <td>승리 수&nbsp;&nbsp;{players[0].winc}</td>
+            <td>피옵스&nbsp;&nbsp;{players[0].ops}</td>
+          </tr>
+          <tr>
+            <td>평균자책점&nbsp;&nbsp;{players[0].score}</td>
+            <td>볼넷&nbsp;&nbsp;{players[0].ballf}</td>
+          </tr>
+          <tr>
+            <td>WHIP&nbsp;&nbsp;{players[0].whip}</td>
+            <td>볼삼비&nbsp;&nbsp;{(players[0].bastr).toFixed(2)}</td>
+          </tr>
+          <tr>
+            <td>이닝&nbsp;&nbsp;{players[0].innings}</td>
+            <td>피안타율&nbsp;&nbsp;{players[0].hits}</td>
+          </tr>
+          <tr>
+            <td>투구수&nbsp;&nbsp;{players[0].ballc}</td>
+            <td>피홈런율&nbsp;&nbsp;{players[0].homerun}</td>
+          </tr>    
+          <tr>
+            <td colSpan = {3}>부상상태<br/>{players[0].injury}</td>
+            <td colSpan = {4} rowspan={2}>게임 로그<br/>2022.05.11 vs삼성 4이닝</td>
+          </tr>
+          <tr>
+            <td colSpan = {3}>스핀<br/><br/></td>
+          </tr>
+        </tbody>
+      </Table>
+    </Style>
   );
 }
