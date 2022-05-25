@@ -14,7 +14,7 @@ import { GiTeacher } from "react-icons/gi";
 function Sidebar() {
   const menus = [
     { name: "홈", path: "/main", icon: <IoHome /> },
-    { name: "선수단", path: "/private", icon: <IoBaseballSharp /> },
+    { name: "선수단", path: "/playerss", icon: <IoBaseballSharp /> },
     { name: "일정표", path: "/schedule", icon: <IoCalendarClearOutline /> },
     { name: "선수육성", path: "/develop", icon: <GiTeacher /> },
     { name: "전략분석", path: "/strategy", icon: <IoBulbOutline /> },

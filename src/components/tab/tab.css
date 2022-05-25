@@ -13,10 +13,9 @@
 }
 .nav-link{
     color: white;
+    padding: 0.5rem 1rem;
 }
 .TabContent{
     width: 87vw;
 }
-.nav-link {
-    padding: 0.5rem 1rem;
-}
+

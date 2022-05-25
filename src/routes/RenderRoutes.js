@@ -20,7 +20,7 @@ const Login = lazy(() => import("../pages/login"));
 const Training = lazy(() => import("../pages/training"));
 const Scouting = lazy(() => import("../pages/scouting"));
 const PlayersInfo = lazy(() => import("../pages/playersInfo.js"));
-const Private = lazy(() => import("../pages/Profile"));
+const Playerss = lazy(() => import("../pages/Playerss.js"));
 const Strategy = lazy(() => import("../pages/strategy"));
 const Schedule = lazy(() => import("../pages/schedule"));
 
@@ -41,9 +41,9 @@ class routes {
       new routeItem("/login", "LOGIN", true, Login, []),
       new routeItem("/training", "TRAINING", true, Training, []),
       new routeItem("/scout", "SCOUTING", true, Scouting, []),
-      new routeItem("/private/playersInfo", "Info", true, PlayersInfo, []),
+      new routeItem("/playerss/playersInfo", "Info", true, PlayersInfo, []),
       new routeItem("/strategy", "STRATEGY", true, Strategy, []),
-      new routeItem("/private", "PRIVATE", true, Private, []),
+      new routeItem("/playerss", "PLAYERSS", true, Playerss, []),
       new routeItem("/schedule", "SCHEDULE", true, Schedule, []),
       // 페이지 추가 시 routeItem 추가
     ];
