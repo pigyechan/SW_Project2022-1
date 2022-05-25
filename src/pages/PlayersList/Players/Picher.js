@@ -110,13 +110,13 @@ function Pitcher() {
                             }}>
                             <div
                                 style={{
-                                    fontSize:"2vh",
+                                    fontSize:"1.5vh",
                                     color: "grey",
                                 }}>
                                 {player.position}</div>
                             <div
                                 style={{
-                                    fontSize:"3vh",
+                                    fontSize:"2.3vh",
                                     fontWeight:"bolder",
                                     marginBottom: "60px",
                                 }}>

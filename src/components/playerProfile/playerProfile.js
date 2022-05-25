@@ -59,15 +59,16 @@ function PlayerProfile() {
 
 function Firstbox(props){   
   const [players] = useState(PlayersData);
+  
   return(
     <div className='profile'>
         <div className='profile-photoname'>
           <div className="photo">Photo</div>
-          <h5 className="name">{players[0].name}</h5>
+          <h5 className="name">{players[1].name}</h5>
         </div>
         <div className="detailinfo">
           <p>{players[0].age}</p>
-          <p>{players[0].nationality}</p>
+          <p>{players[1].nationality}</p>
           <p>{players[0].RL}</p>
           <p>{players[0].defenseRatio}</p>
         </div>
