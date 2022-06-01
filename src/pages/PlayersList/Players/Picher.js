@@ -1,70 +1,8 @@
 import * as S from "./players.style.js";
-import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
+import player from "./playersData";
 
 function Pitcher() {
-    const player = [
-        {
-            position: "투수",
-            name: "정찬헌",
-            number: "No. 22",
-            photo: "",
-            box: <S.Box></S.Box>,
-            profile: <Button variant="secondary">자세히 보기</Button>,
-        },
-        {
-            position: "투수",
-            name: "문성현",
-            number: "No. 39",
-            photo: "",
-            box: <S.Box></S.Box>,
-            profile: <Button variant="secondary">자세히 보기</Button>,
-        },
-        {
-            position: "투수",
-            name: "양현",
-            number: "No. 39",
-            photo: "",
-            box: <S.Box></S.Box>,
-            profile: <Button variant="secondary">자세히 보기</Button>,
-        },
-        {
-            position: "투수",
-            name: "에릭 요키시",
-            number: "No. 43",
-            photo: "",
-            box: <S.Box></S.Box>,
-            profile: 
-            <Link to ="./playerss/playersInfo">
-                <Button variant="secondary" >자세히 보기</Button>
-            </Link>,
-        },
-        {
-            position: "투수",
-            name: "김태훈",
-            number: "No. 17",
-            photo: "",
-            box: <S.Box></S.Box>,
-            profile: <Button variant="secondary">자세히 보기</Button>,
-        },
-        {
-            position: "투수",
-            name: "한현희",
-            number: "No. 63",
-            photo: "",
-            box: <S.Box></S.Box>,
-            profile: <Button variant="secondary">자세히 보기</Button>,
-        },
-        {
-            position: "투수",
-            name: "박주현",
-            number: "No. 45",
-            photo: "",
-            box: <S.Box></S.Box>,
-            profile: <Button variant="secondary">자세히 보기</Button>,
-        },
-    ];
-
+    
     return (
         <S.Container>
             <div
@@ -92,19 +30,18 @@ function Pitcher() {
                         justifyContent: "space-between",
                         border:"3px solid grey",
                         borderRadius:"10px",
-
+    
                     }}
                   >
                     <div style={{
-                                padding: "30px",
+                                padding: "20px",
                                 display: "flex",
                                 flexDirection: "column",
                             }}>
                         <div
                             style={{
                                 height:"100%",
-                                width: "100%",
-                                padding: "10px",
+                                width: "150%",
                                 display: "flex",
                                 flexDirection: "column",
                             }}>
@@ -116,7 +53,7 @@ function Pitcher() {
                                 {player.position}</div>
                             <div
                                 style={{
-                                    fontSize:"2.3vh",
+                                    fontSize:"2.2vh",
                                     fontWeight:"bolder",
                                     marginBottom: "60px",
                                 }}>
@@ -136,7 +73,7 @@ function Pitcher() {
                                 {player.number}</div>
                         </div>
                     </div>
-
+    
                     <div
                     style={{
                         display:"flex",

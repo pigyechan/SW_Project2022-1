@@ -36,15 +36,14 @@ function Catcher() {
                     }}
                   >
                     <div style={{
-                                padding: "30px",
+                                padding: "20px",
                                 display: "flex",
                                 flexDirection: "column",
                             }}>
                         <div
                             style={{
                                 height:"100%",
-                                width: "100%",
-                                padding: "10px",
+                                width: "150%",
                                 display: "flex",
                                 flexDirection: "column",
                             }}>
@@ -56,7 +55,7 @@ function Catcher() {
                                 {player.position}</div>
                             <div
                                 style={{
-                                    fontSize:"2.3vh",
+                                    fontSize:"2.2vh",
                                     fontWeight:"bolder",
                                     marginBottom: "60px",
                                 }}>

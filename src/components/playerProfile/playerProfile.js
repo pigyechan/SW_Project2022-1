@@ -50,7 +50,7 @@ function PlayerProfile() {
               <Modal.Header closeButton>
                 <Modal.Title>스카우트 요약</Modal.Title>
               </Modal.Header>
-              <Modal.Body>스카우트 요약은 여기 나타납니다아아아아앙아ㅏ</Modal.Body>
+              <Modal.Body>Full Description</Modal.Body>
             </Modal>
           </>
         );
@@ -64,11 +64,11 @@ function Firstbox(props){
     <div className='profile'>
         <div className='profile-photoname'>
           <div className="photo">Photo</div>
-          <h5 className="name">{players[1].name}</h5>
+          <h5 className="name">{players[0].name}</h5>
         </div>
         <div className="detailinfo">
           <p>{players[0].age}</p>
-          <p>{players[1].nationality}</p>
+          <p>{players[0].nationality}</p>
           <p>{players[0].RL}</p>
           <p>{players[0].defenseRatio}</p>
         </div>

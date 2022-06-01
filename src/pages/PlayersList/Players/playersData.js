@@ -65,7 +65,7 @@ const PlayersData = [
         photo: "",
         box: <S.Box></S.Box>,
         profile: 
-        <Link to ="./playerss/playersInfo">
+        <Link to ="#">
             <Button variant="secondary" >자세히 보기</Button>
         </Link>,
     },
@@ -74,7 +74,7 @@ const PlayersData = [
         photo: "",
         name: "정찬헌",
         age: 34,
-        nationality: "USA",
+        nationality: "Korea",
         RL: "Right",
         defenseRatio: 0.7,
         team: "KIWOOM",
@@ -98,7 +98,7 @@ const PlayersData = [
         photo: "",
         box: <S.Box></S.Box>,
         profile: 
-        <Link to ="./playerss/playersInfo">
+        <Link to ="#">
             <Button variant="secondary" >자세히 보기</Button>
         </Link>,
     },
@@ -107,7 +107,7 @@ const PlayersData = [
         photo: "",
         name: "양현",
         age: 34,
-        nationality: "USA",
+        nationality: "Korea",
         RL: "Right",
         defenseRatio: 0.7,
         team: "KIWOOM",
@@ -131,7 +131,7 @@ const PlayersData = [
         photo: "",
         box: <S.Box></S.Box>,
         profile: 
-        <Link to ="./playerss/playersInfo">
+        <Link to ="#">
             <Button variant="secondary" >자세히 보기</Button>
         </Link>,
     },
@@ -140,7 +140,7 @@ const PlayersData = [
         photo: "",
         name: "한현희",
         age: 34,
-        nationality: "USA",
+        nationality: "Korea",
         RL: "Right",
         defenseRatio: 0.7,
         team: "KIWOOM",
@@ -164,7 +164,7 @@ const PlayersData = [
         photo: "",
         box: <S.Box></S.Box>,
         profile: 
-        <Link to ="./playerss/playersInfo">
+        <Link to ="#">
             <Button variant="secondary" >자세히 보기</Button>
         </Link>,
     },
@@ -197,7 +197,7 @@ const PlayersData = [
         photo: "",
         box: <S.Box></S.Box>,
         profile: 
-        <Link to ="./playerss/playersInfo">
+        <Link to ="#">
             <Button variant="secondary" >자세히 보기</Button>
         </Link>,
     },
@@ -206,7 +206,7 @@ const PlayersData = [
         photo: "",
         name: "하영민",
         age: 34,
-        nationality: "USA",
+        nationality: "Korea",
         RL: "Right",
         defenseRatio: 0.7,
         team: "KIWOOM",
@@ -230,7 +230,7 @@ const PlayersData = [
         photo: "",
         box: <S.Box></S.Box>,
         profile: 
-        <Link to ="./playerss/playersInfo">
+        <Link to ="#">
             <Button variant="secondary" >자세히 보기</Button>
         </Link>,
     },
@@ -239,7 +239,7 @@ const PlayersData = [
         photo: "",
         name: "박주현",
         age: 34,
-        nationality: "USA",
+        nationality: "Korea",
         RL: "Right",
         defenseRatio: 0.7,
         team: "KIWOOM",
@@ -263,7 +263,7 @@ const PlayersData = [
         photo: "",
         box: <S.Box></S.Box>,
         profile: 
-        <Link to ="./playerss/playersInfo">
+        <Link to ="#">
             <Button variant="secondary" >자세히 보기</Button>
         </Link>,
     },
@@ -272,7 +272,7 @@ const PlayersData = [
         photo: "",
         name: "김정인",
         age: 34,
-        nationality: "USA",
+        nationality: "Korea",
         RL: "Right",
         defenseRatio: 0.7,
         team: "KIWOOM",
@@ -296,43 +296,10 @@ const PlayersData = [
         photo: "",
         box: <S.Box></S.Box>,
         profile: 
-        <Link to ="./playerss/playersInfo">
+        <Link to ="#">
             <Button variant="secondary" >자세히 보기</Button>
         </Link>,
     },
-    {
-        id: 9,
-        photo: "",
-        name: "이승호",
-        age: 34,
-        nationality: "USA",
-        RL: "Right",
-        defenseRatio: 0.7,
-        team: "KIWOOM",
-        contract: "4년",
-        scoutsum: '좋은 영입이 될 것',
-        gamec: 5,
-        strout: 29,
-        winc: 2,
-        ops : 123,
-        score : 2.27,
-        ballf : 3,
-        whip : 1.04,
-        bastr : 29/3,
-        innings : '31 2/3',
-        hits : 30,
-        ballc : 474,
-        homerun : 0,
-        injury : '팔, 다리 부상',
-        position: "투수",
-        number: "No. 22",
-        photo: "",
-        box: <S.Box></S.Box>,
-        profile: 
-        <Link to ="./playerss/playersInfo">
-            <Button variant="secondary" >자세히 보기</Button>
-        </Link>,
-    }
 
 ]
 export default PlayersData;
