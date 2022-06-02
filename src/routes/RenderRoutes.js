@@ -23,6 +23,7 @@ const PlayersInfo = lazy(() => import("../pages/playersInfo.js"));
 const Playerss = lazy(() => import("../pages/Playerss.js"));
 const Strategy = lazy(() => import("../pages/strategy"));
 const Schedule = lazy(() => import("../pages/schedule"));
+const Develop = lazy(() => import("../pages/develop"));
 
 class routeItem {
   constructor(path, key, exact, component, routes) {
@@ -45,6 +46,7 @@ class routes {
       new routeItem("/strategy", "STRATEGY", true, Strategy, []),
       new routeItem("/playerss", "PLAYERSS", true, Playerss, []),
       new routeItem("/schedule", "SCHEDULE", true, Schedule, []),
+      new routeItem("/develop", "DEVELOP", true, Develop, []),
       // 페이지 추가 시 routeItem 추가
     ];
   }
