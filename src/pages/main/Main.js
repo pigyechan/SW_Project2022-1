@@ -14,7 +14,7 @@ export function Main(props) {
     </style>
     
     <div style={{ width: '100%', height: '100%', color: 'white', backgroundColor: '#550610' }}>
-        <div style={{ minWidth: '450px', width: '35%', height: '100%', borderRight: '1px solid #930A1A', float:'left' }}>
+        <div style={{ minWidth: '450px', width: '40%', height: '100%', borderRight: '1px solid #930A1A', float:'left' }}>
           <div style={{ minHeight: '120px', width: '100%', height: '15%', borderBottom: '1px solid #930A1A' }}>
             <div style={{ padding: '10px', width: '30%', float: 'left' }}>
               <img className="Image" src="images/kiumlogo.png" />
@@ -96,7 +96,7 @@ export function Main(props) {
             당일 로스터 목록
           </div>
           <div style = {{width : '100%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '15px', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '25px', borderRight: '1px solid #930A1A', float : 'left'}}>
               1
             </div>
             <div style={{marginLeft : '30px', padding : '5px', }}>
@@ -104,7 +104,7 @@ export function Main(props) {
             </div>
           </div>
           <div style = {{width : '100%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '15px', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '25px', borderRight: '1px solid #930A1A', float : 'left'}}>
               2
             </div>
             <div style={{marginLeft : '30px', padding : '5px', }}>
@@ -112,7 +112,7 @@ export function Main(props) {
             </div>
           </div>
           <div style = {{width : '100%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '15px', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '25px', borderRight: '1px solid #930A1A', float : 'left'}}>
               3
             </div>
             <div style={{marginLeft : '30px', padding : '5px', }}>
@@ -120,7 +120,7 @@ export function Main(props) {
             </div>
           </div>
           <div style = {{width : '100%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '15px', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '25px', borderRight: '1px solid #930A1A', float : 'left'}}>
               4
             </div>
             <div style={{marginLeft : '30px', padding : '5px', }}>
@@ -128,7 +128,7 @@ export function Main(props) {
             </div>
           </div>
           <div style = {{width : '100%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '15px', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '25px', borderRight: '1px solid #930A1A', float : 'left'}}>
               5
             </div>
             <div style={{marginLeft : '30px', padding : '5px', }}>
@@ -136,7 +136,7 @@ export function Main(props) {
             </div>
           </div>
           <div style = {{width : '100%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '15px', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '25px', borderRight: '1px solid #930A1A', float : 'left'}}>
               6
             </div>
             <div style={{marginLeft : '30px', padding : '5px', }}>
@@ -144,7 +144,7 @@ export function Main(props) {
             </div>
           </div>
           <div style = {{width : '100%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '15px', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '25px', borderRight: '1px solid #930A1A', float : 'left'}}>
               7
             </div>
             <div style={{marginLeft : '30px', padding : '5px', }}>
@@ -152,7 +152,7 @@ export function Main(props) {
             </div>
           </div>
           <div style = {{width : '100%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '15px', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '25px', borderRight: '1px solid #930A1A', float : 'left'}}>
               8
             </div>
             <div style={{marginLeft : '30px', padding : '5px', }}>
@@ -160,7 +160,7 @@ export function Main(props) {
             </div>
           </div>
           <div style = {{width : '100%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '15px', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '25px', borderRight: '1px solid #930A1A', float : 'left'}}>
               9
             </div>
             <div style={{marginLeft : '30px', padding : '5px', }}>
@@ -168,7 +168,7 @@ export function Main(props) {
             </div>
           </div>
           <div style = {{width : '100%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '15px', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '25px', borderRight: '1px solid #930A1A', float : 'left'}}>
               P
             </div>
             <div style={{marginLeft : '30px', padding : '5px', }}>
@@ -198,16 +198,17 @@ export function Main(props) {
           </div>
           <div style={{padding : '5px', fontSize : '18px', fontWeight : 'bold'}}>주요 타이틀</div>
         </div>
-        <div style={{width : '30%', height : '100%', float : 'left'}}>
+        <div style={{width : '35%', height : '100%', float : 'left'}}>
           <div style={{paddingLeft : '80px', padding : '10px', fontSize : '24px', fontWeight : 'bold'}}>
             리포트
           </div>
           <div style = {{height : '15%', width : '100%', borderBottom : '1px solid #930A1A'}}>
            <div style={{padding : '10px', paddingTop : '0px', fontSize : '18px'}}>
-              리포트 제목
+              OO 선수의 훈련 결과
             </div>
             <div style={{padding : '10px', paddingTop : '0px'}}>
-              리포트 요약
+              OO 선수가 훈련에서 매우 좋은 결과를 거두었습니다.<br/>
+              다음 경기 때 좋은 모습을 보일 것으로 보입니다.
             </div>
           </div>
           <div style = {{height : '25%', width : '100%', borderBottom : '1px solid #930A1A'}}>
@@ -216,112 +217,170 @@ export function Main(props) {
             팀 부상
           </div>
           <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '27%', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '24%', borderRight: '1px solid #930A1A', float : 'left'}}>
               포지션
             </div>
-            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '27%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
               이름
             </div>
-            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '27%',float : 'left'}}>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '24%',float : 'left', borderRight: '1px solid #930A1A'}}>
               부상
             </div>
+            <div style={{fontWeight : 'bold', padding : '5px', textAlign : 'center', width : '24%',float : 'left'}}>
+              재활 기간
+            </div>
           </div>
           <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', borderRight: '1px solid #930A1A', float : 'left'}}>
               투수
             </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
               한현희
             </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%',float : 'left'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
               발목 부상
             </div>
-          </div>
-          <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', borderRight: '1px solid #930A1A', float : 'left'}}>
-            &nbsp;
-            </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', float : 'left', borderRight: '1px solid #930A1A'}}>
-            &nbsp;
-            </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%',float : 'left'}}>
-            &nbsp;
+            <div style={{padding : '5px',  textAlign : 'center', width : '24%', float : 'left'}}>
+              4.21~5.23
             </div>
           </div>
           <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', borderRight: '1px solid #930A1A', float : 'left'}}>
             &nbsp;
             </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
             &nbsp;
             </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%',float : 'left'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left'}}>
             &nbsp;
             </div>
           </div>
           <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', borderRight: '1px solid #930A1A', float : 'left'}}>
+          <div style={{padding : '5px', textAlign : 'center', width : '24%', borderRight: '1px solid #930A1A', float : 'left'}}>
             &nbsp;
             </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
             &nbsp;
             </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%',float : 'left'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
             &nbsp;
             </div>
-          </div>
-          <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', borderRight: '1px solid #930A1A', float : 'left'}}>
-            &nbsp;
-            </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', float : 'left', borderRight: '1px solid #930A1A'}}>
-            &nbsp;
-            </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%',float : 'left'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left'}}>
             &nbsp;
             </div>
           </div>
           <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', borderRight: '1px solid #930A1A', float : 'left'}}>
             &nbsp;
             </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
             &nbsp;
             </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%',float : 'left'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
             &nbsp;
             </div>
-          </div>
-          <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', borderRight: '1px solid #930A1A', float : 'left'}}>
-            &nbsp;
-            </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', float : 'left', borderRight: '1px solid #930A1A'}}>
-            &nbsp;
-            </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%',float : 'left'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left'}}>
             &nbsp;
             </div>
           </div>
           <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', borderRight: '1px solid #930A1A', float : 'left'}}>
             &nbsp;
             </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
             &nbsp;
             </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%',float : 'left'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left'}}>
             &nbsp;
             </div>
           </div>
           <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', borderRight: '1px solid #930A1A', float : 'left'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', borderRight: '1px solid #930A1A', float : 'left'}}>
             &nbsp;
             </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
             &nbsp;
             </div>
-            <div style={{padding : '5px', textAlign : 'center', width : '27%',float : 'left'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left'}}>
+            &nbsp;
+            </div>
+          </div>
+          <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', borderRight: '1px solid #930A1A', float : 'left'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left'}}>
+            &nbsp;
+            </div>
+          </div>
+          <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', borderRight: '1px solid #930A1A', float : 'left'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left'}}>
+            &nbsp;
+            </div>
+          </div>
+          <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', borderRight: '1px solid #930A1A', float : 'left'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left'}}>
+            &nbsp;
+            </div>
+          </div>
+          <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', borderRight: '1px solid #930A1A', float : 'left'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left'}}>
+            &nbsp;
+            </div>
+          </div>
+          <div style = {{width : '100%', height : '3.5%', borderBottom : '1px solid #930A1A'}}>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', borderRight: '1px solid #930A1A', float : 'left'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left', borderRight: '1px solid #930A1A'}}>
+            &nbsp;
+            </div>
+            <div style={{padding : '5px', textAlign : 'center', width : '24%', float : 'left'}}>
             &nbsp;
             </div>
           </div>
