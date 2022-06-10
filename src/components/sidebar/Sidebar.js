@@ -22,7 +22,21 @@ function Sidebar() {
     { name: "스카우트", path: "/scout", icon: <IoDocumentTextOutline /> },
   ];
   return (
-    <Side style={{ borderRight: "1px solid #930a1a"}}>
+    <Side
+      style={{
+        borderRight: "1px solid #930a1a",
+        height: "100vh",
+      }}
+    >
+      <div
+        style={{
+          padding: "10px",
+          borderBottom: "1px solid #930a1a",
+          textAlign: "center",
+        }}
+      >
+        <img className="Image" src="images/kiumlogo.png" />
+      </div>
       <Menu>
         {menus.map((menu, index) => {
           return (
