@@ -11,7 +11,6 @@ import {
 function Header() {
   let history = useHistory();
   let now = new Date();
-  setInterval(now, 1000);
   return (
     <Head style={{ borderBottom: "1px solid #930a1a" }}>
       <MdOutlineArrowBackIos

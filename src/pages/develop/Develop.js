@@ -105,6 +105,162 @@ export function Develop(props) {
             </S.InnerFont>
           </S.FontSet>
         </S.Slide>
+        <S.Slide trigger="2022-04-09-SAT REPORT">
+          <S.FontSet>
+            <S.InnerFont style={{ float: "left" }}>
+              No. 19 이용규
+              <S.InnerFont
+                style={{
+                  fontSize: "1vw",
+                  display: "inline-block",
+                  paddingLeft: "5px",
+                }}
+              >
+                외야수, 좌투좌타
+              </S.InnerFont>
+            </S.InnerFont>
+            <S.InnerFont
+              style={{
+                fontSize: "1vw",
+                paddingLeft: "5px",
+              }}
+            >
+              + 4월 6일 경기와 비교했을 때 타율 0.200 에서 0.333으로 상승
+            </S.InnerFont>
+            <S.InnerFont
+              style={{
+                fontSize: "1vw",
+                paddingLeft: "5px",
+              }}
+            >
+              + 도루 1번 성공
+            </S.InnerFont>
+            <S.InnerFont
+              style={{
+                fontSize: "1vw",
+                paddingLeft: "5px",
+              }}
+            >
+              - 부상: 손목 골절 통증 부상 통증 발생
+            </S.InnerFont>
+          </S.FontSet>
+          <S.FontSet style={{ marginTop: "20px" }}>
+            <S.InnerFont style={{ float: "left" }}>
+              No. 19 이용규
+              <S.InnerFont
+                style={{
+                  fontSize: "1vw",
+                  display: "inline-block",
+                  paddingLeft: "5px",
+                }}
+              >
+                외야수, 좌투좌타
+              </S.InnerFont>
+            </S.InnerFont>
+            <S.InnerFont
+              style={{
+                fontSize: "1vw",
+                paddingLeft: "5px",
+              }}
+            >
+              + 4월 6일 경기와 비교했을 때 타율 0.200 에서 0.333으로 상승
+            </S.InnerFont>
+            <S.InnerFont
+              style={{
+                fontSize: "1vw",
+                paddingLeft: "5px",
+              }}
+            >
+              + 도루 1번 성공
+            </S.InnerFont>
+            <S.InnerFont
+              style={{
+                fontSize: "1vw",
+                paddingLeft: "5px",
+              }}
+            >
+              - 부상: 손목 골절 통증 부상 통증 발생
+            </S.InnerFont>
+          </S.FontSet>
+        </S.Slide>
+        <S.Slide trigger="2022-04-08-FRI REPORT">
+          <S.FontSet>
+            <S.InnerFont style={{ float: "left" }}>
+              No. 19 이용규
+              <S.InnerFont
+                style={{
+                  fontSize: "1vw",
+                  display: "inline-block",
+                  paddingLeft: "5px",
+                }}
+              >
+                외야수, 좌투좌타
+              </S.InnerFont>
+            </S.InnerFont>
+            <S.InnerFont
+              style={{
+                fontSize: "1vw",
+                paddingLeft: "5px",
+              }}
+            >
+              + 4월 6일 경기와 비교했을 때 타율 0.200 에서 0.333으로 상승
+            </S.InnerFont>
+            <S.InnerFont
+              style={{
+                fontSize: "1vw",
+                paddingLeft: "5px",
+              }}
+            >
+              + 도루 1번 성공
+            </S.InnerFont>
+            <S.InnerFont
+              style={{
+                fontSize: "1vw",
+                paddingLeft: "5px",
+              }}
+            >
+              - 부상: 손목 골절 통증 부상 통증 발생
+            </S.InnerFont>
+          </S.FontSet>
+          <S.FontSet style={{ marginTop: "20px" }}>
+            <S.InnerFont style={{ float: "left" }}>
+              No. 19 이용규
+              <S.InnerFont
+                style={{
+                  fontSize: "1vw",
+                  display: "inline-block",
+                  paddingLeft: "5px",
+                }}
+              >
+                외야수, 좌투좌타
+              </S.InnerFont>
+            </S.InnerFont>
+            <S.InnerFont
+              style={{
+                fontSize: "1vw",
+                paddingLeft: "5px",
+              }}
+            >
+              + 4월 6일 경기와 비교했을 때 타율 0.200 에서 0.333으로 상승
+            </S.InnerFont>
+            <S.InnerFont
+              style={{
+                fontSize: "1vw",
+                paddingLeft: "5px",
+              }}
+            >
+              + 도루 1번 성공
+            </S.InnerFont>
+            <S.InnerFont
+              style={{
+                fontSize: "1vw",
+                paddingLeft: "5px",
+              }}
+            >
+              - 부상: 손목 골절 통증 부상 통증 발생
+            </S.InnerFont>
+          </S.FontSet>
+        </S.Slide>
       </S.MainContainer>
     </S.BackContainer>
   );

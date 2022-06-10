@@ -5,21 +5,21 @@ import { FormControl } from "react-bootstrap";
 
 export function Scouting(props) {
   const scouterArr = ["스카우터명", "스카우터명", "스카우터명"];
-  const nameArr = ["선수이름1", "선수이름2"];
+  const nameArr = ["김혜성", "이정후"];
   const scoutingArr = [
     {
-      name: "선수이름",
-      age: "나이",
-      nation: "국적",
-      style: "좌/우",
-      status: "스탯",
+      name: "김혜성",
+      age: "23",
+      nation: "대한민국",
+      style: "좌",
+      status: "WAR+ 2.04",
       box: <S.Box></S.Box>,
     },
   ];
   return (
     <S.BackContainer>
       <S.MainContainer>
-        <S.FontSet>트레이닝</S.FontSet>
+        <S.FontSet>스카우트</S.FontSet>
         <S.TrainContainer>
           <S.LeftContainer>
             <S.FontSet
@@ -157,6 +157,7 @@ export function Scouting(props) {
                     >
                       <div
                         style={{
+                          paddingTop: "15px",
                           paddingLeft: "15px",
                         }}
                       >
