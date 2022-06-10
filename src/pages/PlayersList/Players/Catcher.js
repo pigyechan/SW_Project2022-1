@@ -1,10 +1,7 @@
 import * as S from "./players.style.js";
-import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
 import player from "./playersData";
 
 function Catcher() {
-
     return (
         <S.Container>
             <div
@@ -32,18 +29,18 @@ function Catcher() {
                         justifyContent: "space-between",
                         border:"3px solid grey",
                         borderRadius:"10px",
-
+    
                     }}
                   >
                     <div style={{
-                                padding: "20px",
+                                padding: "25px",
                                 display: "flex",
                                 flexDirection: "column",
                             }}>
                         <div
                             style={{
                                 height:"100%",
-                                width: "150%",
+                                width: "280%",
                                 display: "flex",
                                 flexDirection: "column",
                             }}>
@@ -52,10 +49,10 @@ function Catcher() {
                                     fontSize:"1.5vh",
                                     color: "grey",
                                 }}>
-                                {player.position}</div>
+                                포수</div>
                             <div
                                 style={{
-                                    fontSize:"2.2vh",
+                                    fontSize:"2vh",
                                     fontWeight:"bolder",
                                     marginBottom: "60px",
                                 }}>
@@ -67,7 +64,6 @@ function Catcher() {
                                 }}></div>
                             <div
                                 style={{
-                                    fontSize:"3vh",
                                     color:"#930A1A",
                                     marginTop:"15px",
                                     fontWeight:"bolder",
@@ -75,19 +71,20 @@ function Catcher() {
                                 {player.number}</div>
                         </div>
                     </div>
-
+    
                     <div
                     style={{
                         display:"flex",
                         flexDirection:"column",
                         alignItems:"center",
-                        margin: "60px",
-    
+                        marginLeft: "30px",
+                        marginRight: "30px",
+                        height:"190px",
                     }}>
                         <div>{player.box}</div>
                         <div
                             style={{
-                                marginTop:"15px",
+                                marginTop:"10px",
                                 alignItems:"center",
                         }}>{player.profile}</div>
                     </div>

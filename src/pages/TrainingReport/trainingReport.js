@@ -25,7 +25,7 @@ function TrainingReport() {
                 </thead>
                 <tbody className='body'>
                     <tr>
-                        <td>ee</td>
+                        <td className="ccolor">Video1</td>
                         <td>
                             <Card className='Card' >
                                 <Card.Body>
@@ -40,7 +40,7 @@ function TrainingReport() {
                         </td>
                     </tr>
                     <tr>
-                        <td>ee</td>
+                        <td className="ccolor">Video2</td>
                         <td>
                         <Card className='Card' >
                             <Card.Body>
@@ -60,13 +60,5 @@ function TrainingReport() {
     );
     }
 
-    function Training(props){
-        <tr>
-            <td>ee</td>
-            <td>
-                <div id="summary"></div>
-            </td>
-        </tr>
-    }
 
 export default TrainingReport;

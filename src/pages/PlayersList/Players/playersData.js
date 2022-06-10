@@ -33,7 +33,7 @@ const PlayersData = [
         box: <S.Box></S.Box>,
         profile: 
         <Link to ="./playerss/playersInfo">
-            <Button variant="secondary" >자세히 보기</Button>
+            <Button variant="secondary">자세히 보기</Button>
         </Link>,
     },
     {

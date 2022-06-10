@@ -7,8 +7,8 @@ export const FontSet = styled.div`
 
 export const Box = styled.div`
   position: relative;
-  width: 130px;
-  height: 170px;
+  width: 100px;
+  height: 140px;
   boder: 1px solid black;
   background: #aaaaaa;
 `;
