@@ -48,12 +48,10 @@ export function Strategy(props) {
     pitcherdata[1] = "윌머 폰트"
     pitcherdata[2] = "이반 노바"
   }
-
-  if (team === "키움"){
-    pitcherdata[0] = "에릭 요키시"
-    pitcherdata[1] = "한현희"
-    pitcherdata[2] = "안우진"
-    pitcherdata[3] = "조상우"
+  if (team === "LG"){
+    pitcherdata[0] = "정우영"
+    pitcherdata[1] = "이민호"
+    pitcherdata[2] = "임찬규"
   }
 
   if (team === "삼성"){
@@ -62,12 +60,50 @@ export function Strategy(props) {
     pitcherdata[2] = "원태인"
   }
 
+  if (team === "두산"){
+    pitcherdata[0] = "박치국"
+    pitcherdata[1] = "남호"
+    pitcherdata[2] = "홍건희"
+  }
+
+  if (team === "롯데"){
+    pitcherdata[0] = "최준용"
+    pitcherdata[1] = "김원중"
+    pitcherdata[2] = "스파크맨"
+  }
+
+  if (team === "KIA"){
+    pitcherdata[0] = "김이환"
+    pitcherdata[1] = "양현종"
+    pitcherdata[2] = "임기영"
+  }
+
+  if (team === "KT"){
+    pitcherdata[0] = "소형준"
+    pitcherdata[1] = "고영표"
+    pitcherdata[2] = "엄상백"
+  }
+
+  if (team === "NC"){
+    pitcherdata[0] = "박치국"
+    pitcherdata[1] = "남호"
+    pitcherdata[2] = "홍건희"
+  }
+
+  if (team === "한화"){
+    pitcherdata[0] = "이재학"
+    pitcherdata[1] = "구창모"
+    pitcherdata[2] = "송명기"
+  }
   const reportdata = [{
     vsteam : "SSG 상대로 승률 53%",
     vspitcher : "김광현 상대로 타율 0.435",
     instadium : "서울종합운동장 야구장에서 타율 0.342"
-  }
-  ];
+  }];
+  
+
+
+
   const pitcherlists = pitcherdata.map((p) => (<MenuItem value={p}>{p}</MenuItem>));
 
   let [details, changedetails] = useState(0);
@@ -93,9 +129,15 @@ export function Strategy(props) {
             <MenuItem value="">
               <em>팀 선택</em>
             </MenuItem>
-            <MenuItem value={"키움"}>키움</MenuItem>
             <MenuItem value={"SSG"}>SSG</MenuItem>
+            <MenuItem value={"LG"}>LG</MenuItem>
+            <MenuItem value={"KIA"}>KIA</MenuItem>
             <MenuItem value={"삼성"}>삼성</MenuItem>
+            <MenuItem value={"두산"}>두산</MenuItem>
+            <MenuItem value={"KT"}>KT</MenuItem>
+            <MenuItem value={"롯데"}>롯데</MenuItem>
+            <MenuItem value={"한화"}>한화</MenuItem>
+            <MenuItem value={"NC"}>NC</MenuItem>
           </Select>
         </FormControl>
       </div>
@@ -175,7 +217,7 @@ export function Strategy(props) {
     </div>
     <div style = {{ paddingRight : '10px', width : '50%', height : '100%', float : "left"}}>
     <React.Fragment> 
-      { result == 1 ? ( 
+      { result === 1 ? ( 
     <div style = {{height : '100%', backgroundColor : 'white'}}>
     <table style = {{padding : '10px', height : '100%', width : '100%', borderCollapse: 'collapse'}}>
       <tr onClick = {()=>{changedetails(1)}} style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2'}}>
@@ -309,37 +351,7 @@ export function Strategy(props) {
       </tr>
     </table>
     </div>
- ) : <div style = {{height : '100%', backgroundColor : 'white'}}><table style = {{height : '100%', width : '100%', borderCollapse: 'collapse'}}>
- <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2'}}>
-   <td> 
-   </td>
- </tr>
- <tr style = {{height : '6.5%' , borderBottom : '1px solid #f2f2f2', backgroundColor : '#fafafa'}}>
- &ensp;
- </tr>
- <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2'}}>
- </tr>
- <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2', backgroundColor : '#fafafa'}}>
- &ensp;
- </tr>
- <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2'}}>
- </tr>
- <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2', backgroundColor : '#fafafa'}}>
- &ensp;
- </tr>
- <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2'}}>
- </tr>
- <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2', backgroundColor : '#fafafa'}}>
- &ensp;
- </tr>
- <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2' }}>
- &ensp;
- </tr>
- <tr style = {{ backgroundColor : '#fafafa'}}>
- &ensp;
- </tr>
-</table>
-</div> } 
+ ) : null} 
     </React.Fragment>
     </div>
 
@@ -347,7 +359,7 @@ export function Strategy(props) {
     <div style = {{backgroundColor : '#550610', width: '49%', height : '100%', float : "left"}}>
      
      <React.Fragment>
-       {details == 1 ? (
+       {details === 1 ? (
          <div>
          <div style = {{fontSize : '20px', padding : '15px', borderBottom : '1px solid #720B1E', color : 'white'}}>
          {reportdata[0].vsteam}
