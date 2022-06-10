@@ -76,7 +76,7 @@ export function RenderRoutes({ routes }) {
               //         ?  <AuthRoute {...route} />
               //         :  <RouteWithSubRoutes {...route} /> //다른 페이지 접속 시도할 때 로그인 정보 없을 시 로그인 페이지로 Redirect 구현 시 이를 이용
             })}
-            <Route exact path="/" render={() => <Redirect to="/login" />} />
+            <Route exact path="/" render={() => <Redirect to="/main" />} />
             <Route component={() => <h1>Not Found!</h1>} />
           </Switch>
         </HeaderStyle>
