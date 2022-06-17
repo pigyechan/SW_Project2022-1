@@ -1,4 +1,5 @@
 import { SearchBar } from "./Header.style";
+import { useState, useEffect } from "react";
 import { Head, Search, BackgroundDate, DisplayDate } from "./Header.style";
 import { useHistory } from "react-router-dom";
 
@@ -9,8 +10,14 @@ import {
 } from "react-icons/md";
 
 function Header() {
-  let history = useHistory();
-  let now = new Date();
+  let [now, setNow] = useState(new Date());
+  useEffect(() => {
+    const id = setInterval(() => {
+      setNow(new Date());
+    }, 1000);
+    return () => clearInterval(now);
+  }, []);
+
   return (
     <Head style={{ borderBottom: "1px solid #930a1a" }}>
       <MdOutlineArrowBackIos
@@ -42,7 +49,7 @@ function Header() {
 
       <BackgroundDate>
         <DisplayDate>
-          {now.getFullYear()} / {now.getMonth()} / {now.getDate()}
+          {now.getFullYear()} / {now.getMonth() + 1} / {now.getDate()}
         </DisplayDate>
         <DisplayDate>
           {now.getHours()} : {now.getMinutes()} : {now.getSeconds()}
