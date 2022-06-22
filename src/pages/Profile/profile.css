@@ -1,0 +1,33 @@
+#table{
+    color: white;
+    font-size: x-large;
+    border: 5px solid #930A1A;
+}
+#tbtb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    width:80%;
+    margin:auto;
+    justify-content:space-between;
+}
+
+.pitch{
+    display:flex;
+    flex-wrap: wrap;
+    height: 25vh;
+    width: 30vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#StyleList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.StyleList_text{
+    width: 15vh;   
+}

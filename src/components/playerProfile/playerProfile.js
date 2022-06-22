@@ -1,4 +1,4 @@
-import playersData from './playersData';
+import PlayersData from '../../pages/PlayersList/Players/playersData';
 import styled from "styled-components";
 import { useState } from 'react';
 import './playerProfile.css';
@@ -12,7 +12,7 @@ let Photo = styled.div`
 `
 
 function PlayerProfile() {
-    const [players] = useState(playersData);
+    const [players] = useState(PlayersData);
 
     return(
         <div id="playerProfile">
@@ -50,7 +50,7 @@ function PlayerProfile() {
               <Modal.Header closeButton>
                 <Modal.Title>스카우트 요약</Modal.Title>
               </Modal.Header>
-              <Modal.Body>스카우트 요약은 여기 나타납니다아아아아앙아ㅏ</Modal.Body>
+              <Modal.Body>Full Description</Modal.Body>
             </Modal>
           </>
         );
@@ -58,29 +58,31 @@ function PlayerProfile() {
       
 
 function Firstbox(props){   
-
+  const [players] = useState(PlayersData);
+  
   return(
     <div className='profile'>
         <div className='profile-photoname'>
           <div className="photo">Photo</div>
-          <h5 className="name">Name</h5>
+          <h5 className="name">{players[0].name}</h5>
         </div>
         <div className="detailinfo">
-          <p>나이</p>
-          <p>국적</p>
-          <p>좌/우</p>
-          <p>방어율</p>
+          <p>{players[0].age}</p>
+          <p>{players[0].nationality}</p>
+          <p>{players[0].RL}</p>
+          <p>{players[0].defenseRatio}</p>
         </div>
     </div>
     );
 }
 
 function Secondbox(props){   
+    const [players] = useState(PlayersData);
     return(
         <div className= "kiwoom">
           <div className="kiwoom-small">
-            <div>KIWOOM</div>
-            <h5 className="contract">계약기간</h5>
+            <div>{players[0].team}</div>
+            <h5 className="contract">{players[0].contract}</h5>
             </div>
         </div>
     );

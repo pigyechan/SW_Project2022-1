@@ -1,0 +1,1 @@
+export { PlayersList as default } from "./PlayersList";

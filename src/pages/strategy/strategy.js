@@ -1,16 +1,9 @@
-import { Redirect } from "react-router-dom";
-import { Collapse } from "react-bootstrap";
 import React, { useState } from 'react';
-import Box from '@mui/material/Box';
 import FormControl from '@mui/material/FormControl';
-import NativeSelect from '@mui/material/NativeSelect';
-import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
-import FormHelperText from '@mui/material/FormHelperText';
 import Select from '@mui/material/Select';
 import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { AccordionDetails } from "@mui/material";
 import './strategy.css';
 
 const theme = createTheme({
@@ -89,7 +82,7 @@ export function Strategy(props) {
    
   <>
     <div align='center' style={{minWidth : '700px', paddingBottom: '10px', backgroundColor: '#430C13', height: '25%', width: '100%', position: 'relative', color : 'white'}}>
-      <div align='center' style={{ position: 'relative', top: '50%', transform: 'translateY(-75%)', width: '20%', float: 'left' }}>
+      <div align='center' style={{ position: 'relative', top: '50%', transform: 'translateY(-75%)', width: '25%', float: 'left' }}>
         상대 팀<br />
         <FormControl sx={{ m: 1, minWidth: 120, width: '80%', backgroundColor: '#984655', borderRadius: '5px' }}>
           <Select
@@ -107,8 +100,8 @@ export function Strategy(props) {
         </FormControl>
       </div>
 
-      <div align='center' style={{ position: 'relative', top: '50%', transform: 'translateY(-75%)', width: '20%', float: 'left' }}>
-        상대 선발 투수<br />
+      <div align='center' style={{ position: 'relative', top: '50%', transform: 'translateY(-75%)', width: '25%', float: 'left' }}>
+        상대 선발 투수<br/>
         <React.Fragment>
           {team === '' ? (<FormControl sx={{ m: 1, minWidth: 120, width: '80%', backgroundColor: '#984655', borderRadius: '5px', }} disabled>
             <Select
@@ -172,7 +165,7 @@ export function Strategy(props) {
           </Select>
         </FormControl>
       </div>
-      <div style={{ paddingRight: '10%', paddingTop: '4%',  position: 'relative', color: 'white', clear: 'left' }}>
+      <div style={{ paddingTop: '4%',  position: 'relative', color: 'white', clear: 'left' }}>
         <ThemeProvider theme={theme}>
           <Button onClick={()=>{changeresult(1)}} variant="contained" color="search">
             결과 확인
@@ -180,10 +173,11 @@ export function Strategy(props) {
         </ThemeProvider>
       </div>
     </div>
-    <div style = {{paddingLeft : '10px', paddingRight : '10px', width : '50%', height : '100%', float : "left"}}>
+    <div style = {{ paddingRight : '10px', width : '50%', height : '100%', float : "left"}}>
     <React.Fragment> 
       { result == 1 ? ( 
-    <table style = {{height : '100%', width : '100%', borderCollapse: 'collapse'}}>
+    <div style = {{height : '100%', backgroundColor : 'white'}}>
+    <table style = {{padding : '10px', height : '100%', width : '100%', borderCollapse: 'collapse'}}>
       <tr onClick = {()=>{changedetails(1)}} style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2'}}>
         <td style = {{minWidth : '50px', width : '10%'}}>
           1
@@ -314,35 +308,43 @@ export function Strategy(props) {
        
       </tr>
     </table>
- ) : <table style = {{height : '100%', width : '100%', borderCollapse: 'collapse'}}>
+    </div>
+ ) : <div style = {{height : '100%', backgroundColor : 'white'}}><table style = {{height : '100%', width : '100%', borderCollapse: 'collapse'}}>
  <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2'}}>
    <td> 
    </td>
  </tr>
  <tr style = {{height : '6.5%' , borderBottom : '1px solid #f2f2f2', backgroundColor : '#fafafa'}}>
+ &ensp;
  </tr>
  <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2'}}>
  </tr>
  <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2', backgroundColor : '#fafafa'}}>
+ &ensp;
  </tr>
  <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2'}}>
  </tr>
  <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2', backgroundColor : '#fafafa'}}>
+ &ensp;
  </tr>
  <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2'}}>
  </tr>
  <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2', backgroundColor : '#fafafa'}}>
+ &ensp;
  </tr>
  <tr style = {{height : '6.5%', borderBottom : '1px solid #f2f2f2' }}>
+ &ensp;
  </tr>
- <tr>
+ <tr style = {{ backgroundColor : '#fafafa'}}>
+ &ensp;
  </tr>
-</table> } 
+</table>
+</div> } 
     </React.Fragment>
     </div>
 
 
-    <div style = {{backgroundColor : '#550610', width: '40%', height : '100%', float : "left"}}>
+    <div style = {{backgroundColor : '#550610', width: '49%', height : '100%', float : "left"}}>
      
      <React.Fragment>
        {details == 1 ? (

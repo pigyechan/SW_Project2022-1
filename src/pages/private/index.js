@@ -1,1 +1,0 @@
-export { Private as default } from './private'

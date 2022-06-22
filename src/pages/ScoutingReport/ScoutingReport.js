@@ -1,6 +1,6 @@
+import './ScoutingReport.css';
 import Table from 'react-bootstrap/Table'
 import styled from "styled-components";
-import './ScoutingReport.css';
 import Card from 'react-bootstrap/Card'
 
 function ScoutingReport() {
