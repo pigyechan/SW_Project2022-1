@@ -9,6 +9,7 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById('root')
+  //수고하셨습니다.
 );
 
 // If you want to start measuring performance in your app, pass a function
