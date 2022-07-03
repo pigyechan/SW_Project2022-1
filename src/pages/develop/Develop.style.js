@@ -20,6 +20,7 @@ export const Slide = styled(Collapsible)`
   display: flex;
   flex-direction: column;
   background: rgba(255, 255, 255, 0.3);
+  margin-bottom: 40px;
 `;
 
 export const FontSet = styled.div`

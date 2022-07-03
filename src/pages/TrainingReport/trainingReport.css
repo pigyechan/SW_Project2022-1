@@ -39,3 +39,8 @@ table#Table.table.table-bordered{
 .Card{
     text-align: center;
 }
+
+.ccolor{
+    color: white;
+    opacity: 50%;
+}

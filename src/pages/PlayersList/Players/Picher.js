@@ -34,14 +34,14 @@ function Pitcher() {
                     }}
                   >
                     <div style={{
-                                padding: "20px",
+                                padding: "25px",
                                 display: "flex",
                                 flexDirection: "column",
                             }}>
                         <div
                             style={{
                                 height:"100%",
-                                width: "150%",
+                                width: "280%",
                                 display: "flex",
                                 flexDirection: "column",
                             }}>
@@ -53,7 +53,7 @@ function Pitcher() {
                                 {player.position}</div>
                             <div
                                 style={{
-                                    fontSize:"2.2vh",
+                                    fontSize:"2vh",
                                     fontWeight:"bolder",
                                     marginBottom: "60px",
                                 }}>
@@ -65,7 +65,6 @@ function Pitcher() {
                                 }}></div>
                             <div
                                 style={{
-                                    fontSize:"3vh",
                                     color:"#930A1A",
                                     marginTop:"15px",
                                     fontWeight:"bolder",
@@ -79,13 +78,14 @@ function Pitcher() {
                         display:"flex",
                         flexDirection:"column",
                         alignItems:"center",
-                        margin: "60px",
-    
+                        marginLeft: "30px",
+                        marginRight: "30px",
+                        height:"190px",
                     }}>
                         <div>{player.box}</div>
                         <div
                             style={{
-                                marginTop:"15px",
+                                marginTop:"10px",
                                 alignItems:"center",
                         }}>{player.profile}</div>
                     </div>

@@ -5,17 +5,17 @@ import { FormControl } from "react-bootstrap";
 
 export function Training(props) {
   const dateArr = ["2022/04/08", "2022/04/07", "2022/04/06"];
-  const nameArr = ["참가선수1", "참가선수2"];
+  const nameArr = ["김혜성", "이정후"];
   const trainingArr = [
     {
-      name: "트레이닝 이름(설명)",
+      name: "웨이트 트레이닝",
       detail: "-트레이닝 자세한 설명",
       result: "-결과",
       general: "-기대점, 부족한 점 등",
       box: <S.Box></S.Box>,
     },
     {
-      name: "트레이닝 이름(설명)",
+      name: "코어 트레이닝",
       detail: "-트레이닝 자세한 설명",
       result: "-결과",
       general: "-기대점, 부족한 점 등",

@@ -24,7 +24,7 @@ function ScoutingReport() {
                     </thead>
                     <tbody className='body'>
                         <tr>
-                            <td>ee</td>
+                            <td className="ccolor">Scouter1</td>
                             <td>
                                 <Card className='Card'>
                                     <Card.Body>
@@ -39,7 +39,7 @@ function ScoutingReport() {
                             </td>
                         </tr>
                         <tr>
-                            <td>ee</td>
+                            <td className="ccolor">Scouter2</td>
                             <td>
                                 <Card className='Card'>
                                     <Card.Body>
@@ -54,7 +54,7 @@ function ScoutingReport() {
                             </td>
                         </tr>
                         <tr>
-                            <td>ee</td>
+                            <td className="ccolor">Scouter3</td>
                             <td>
                                 <Card className='Card'>
                                     <Card.Body>

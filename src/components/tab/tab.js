@@ -18,43 +18,13 @@ function Tabss() {
         defaultActiveKey="profile"
       >
         <Nav.Item id="navitem1">
-          <Nav.Link
-            style={{
-              color: "#ad4753",
-            }}
-            onClick={() => {
-              setTab(0);
-            }}
-            eventKey="profile"
-          >
-            Profile
-          </Nav.Link>
+          <Nav.Link style={{color: "white",}} onClick={() => {setTab(0);}}eventKey="profile">Profile</Nav.Link>
         </Nav.Item>
         <Nav.Item id="navitem2">
-          <Nav.Link
-            style={{
-              color: "#ad4753",
-            }}
-            onClick={() => {
-              setTab(1);
-            }}
-            eventKey="scouting"
-          >
-            Scouting Report
-          </Nav.Link>
+          <Nav.Link style={{color: "white",}}onClick={() => {setTab(1);}}eventKey="scouting">Scouting Report</Nav.Link>
         </Nav.Item>
         <Nav.Item id="navitem3">
-          <Nav.Link
-            style={{
-              color: "#ad4753",
-            }}
-            onClick={() => {
-              setTab(2);
-            }}
-            eventKey="training"
-          >
-            Training Report
-          </Nav.Link>
+          <Nav.Link style={{color: "white",}} onClick={() => {setTab(2);}}eventKey="training">Training Report</Nav.Link>
         </Nav.Item>
       </Nav>
       <div className="TabContent">

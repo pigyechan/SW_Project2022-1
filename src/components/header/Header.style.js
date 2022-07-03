@@ -60,4 +60,4 @@ export const DisplayDate = styled.div`
   color: #ffffff;
   position: relative;
   z-index: 1;
-`;
+`
